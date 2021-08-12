@@ -1,13 +1,13 @@
 import React,{useState} from 'react'
 
-function Forms() {
+function Todolist() {
     const [firstName,setFirstName]=useState("");
     const [people,setPeople]=useState([]);
 
 
 
     const handleSubmit=(e)=>{
-        e.preventDefault();//this is uded to prevent deafult behaviour of browser
+        e.preventDefault();
         console.log("hello world");
         if(firstName)
         {
